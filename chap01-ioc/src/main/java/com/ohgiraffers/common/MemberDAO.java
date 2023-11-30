@@ -13,7 +13,7 @@ public class MemberDAO {
         this.memberMap = new HashMap<>();
 
         memberMap.put(1, new MemberDTO(1,"user01","pass01","홍길동"));
-        memberMap.put(2, new MemberDTO(1,"user02","pass02","홍길순"));
+        memberMap.put(2, new MemberDTO(2,"user02","pass02","홍길순"));
     }
 
     public MemberDTO selectMember(int seq){

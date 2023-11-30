@@ -1,5 +1,6 @@
 package com.ohgiraffers.section01.test;
 
+
 public class KakaoLoginImpl implements SnsLogin{
     @Override
     public void login() {
